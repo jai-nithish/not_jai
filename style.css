@@ -353,10 +353,26 @@ article {
 article .icon {
   cursor: default;
 }
+#certificates {
+ padding-top: 20rem;
+  margin-bottom: 10rem; /* Add some bottom margin to ensure space before the next section */
+}
+.certificates-carousel {
+  display: flex;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.certificate-container {
+  flex: 0 0 auto; /* Adjust to ensure proper display of certificates */
+  margin-right: 20px; /* Space between certificates */
+}
+
 
 /* PROJECTS SECTION */
 
 #projects {
+
   position: relative;
 }
 
@@ -384,6 +400,7 @@ article .icon {
 /* CONTACT */
 
 #contact {
+ padding-top: 20rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
